@@ -37,7 +37,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Vecor3D.cs" />
-       <Compile Include="texture.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
