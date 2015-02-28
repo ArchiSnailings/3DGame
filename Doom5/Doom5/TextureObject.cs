@@ -11,9 +11,7 @@ namespace Doom5 {
         Image Texture { get; set; }
 
         TextureObject(Image texture, Point point, int length, int width) {
-            texture.
             Texture = texture;
-
         }
     }
 }
