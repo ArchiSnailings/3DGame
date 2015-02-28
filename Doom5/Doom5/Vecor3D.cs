@@ -39,5 +39,10 @@ namespace Doom5
 
             return new Vecor3D((a.X - b.X), (a.Y - b.Y), (a.Z - b.Z));
         }
+
+        public override string ToString()
+        {
+            return (string)("(" + X + "," + Y + "," + Z + ")");
+        }
     }
 }
