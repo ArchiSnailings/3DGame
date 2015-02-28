@@ -36,6 +36,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
+<<<<<<< HEAD
     <Compile Include="Vecor3D.cs" />
   </ItemGroup>
   <ItemGroup>
