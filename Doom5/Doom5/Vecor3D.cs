@@ -10,6 +10,6 @@ namespace Doom5
     {
         double x, z, y;
 
-
+        public static 
     }
 }
