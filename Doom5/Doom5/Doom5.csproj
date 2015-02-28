@@ -36,26 +36,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
     <Compile Include="Vecor3D.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Net" />
-=======
-    <Compile Include="Texture.cs" />
->>>>>>> ab3a6ed8c76e4bdc0903549074197efa667f216e
-    <Compile Include="Vecor.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="System" />
-<<<<<<< HEAD
-=======
-    <Reference Include="System.Drawing" />
->>>>>>> origin/master
->>>>>>> ab3a6ed8c76e4bdc0903549074197efa667f216e
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
