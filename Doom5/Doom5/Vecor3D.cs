@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Doom5
 {
-    class Vecor
+    class Vecor3D
     {
+        double x, z, y;
+
 
     }
 }
