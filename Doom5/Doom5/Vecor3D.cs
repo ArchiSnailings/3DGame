@@ -10,6 +10,16 @@ namespace Doom5
     {
         double x, z, y;
 
-        public static 
+
+
+
+
+
+
+        public static Vecor3D operator +(Vecor3D a, Vecor3D b){
+
+
+            return null;
+        }
     }
 }
