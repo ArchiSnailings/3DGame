@@ -36,12 +36,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
-    <Compile Include="Texture.cs" />
     <Compile Include="Vecor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Drawing" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
