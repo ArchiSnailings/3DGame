@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 using System.Drawing;
 
 namespace Doom5 {
-    class Texture {
+    class TextureObject {
         
+        Image Texture { get; set; }
+
+        TextureObject(Image texture) {
+            Texture = texture;
+        }
     }
 }
