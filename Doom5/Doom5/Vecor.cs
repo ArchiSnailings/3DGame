@@ -8,5 +8,6 @@ namespace Doom5
 {
     class Vecor
     {
+
     }
 }
