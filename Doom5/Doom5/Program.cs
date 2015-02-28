@@ -10,7 +10,7 @@ namespace Doom5
     {
         public static void Main()
         {
-            Console.WriteLine("Pølser");
+
         }
     }
 }
