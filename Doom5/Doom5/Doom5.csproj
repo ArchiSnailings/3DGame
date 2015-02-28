@@ -37,10 +37,11 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Vecor3D.cs" />
-       <Compile Include="texture.cs" />
+    <Compile Include="texture.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Net" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
