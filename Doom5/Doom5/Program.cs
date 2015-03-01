@@ -15,7 +15,7 @@ namespace Doom5
 
             Vector3D c = Vector3D.CrossProduct(a, b)+b;
 
-
+            
             Console.WriteLine(c);
             Console.ReadKey();
         }

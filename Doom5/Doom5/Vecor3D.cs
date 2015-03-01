@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Doom5
-{
+{   
     class Vector3D
-    {
+    {   
         double X, Y, Z;
 
         public Vector3D()
