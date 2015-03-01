@@ -24,23 +24,17 @@ namespace Doom5
             Z = z;
         }
 
-
-
-
-
         public static Vector3D operator +(Vector3D a, Vector3D b)
         {
-
             return new Vector3D((a.X + b.X), (a.Y + b.Y), (a.Z + b.Z));
         }
 
         public static Vector3D operator -(Vector3D a, Vector3D b)
         {
-
             return new Vector3D((a.X - b.X), (a.Y - b.Y), (a.Z - b.Z));
         }
 
-        public static Vector3D Cross(Vector3D a, Vector3D b)
+        public static Vector3D CrossProduct(Vector3D a, Vector3D b)
         {
             return new Vector3D(((a.Y * b.Z) - (a.Z * b.Y)),
                                 ((a.Z * b.X) - (a.X * b.Z)),
@@ -49,7 +43,7 @@ namespace Doom5
 
         public override string ToString()
         {
-            return (string)("(" + X + "," + Y + "," + Z + ")");
+            return ("(" + X + "," + Y + "," + Z + ")");
         }
     }
 }
