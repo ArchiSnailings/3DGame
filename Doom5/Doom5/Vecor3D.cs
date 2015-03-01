@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace Doom5
 {
-    class Vecor3D
+    class Vector3D
     {
         double X, Y, Z;
 
-        public Vecor3D()
+        public Vector3D()
         {
             X = 0;
             Y = 0;
             Z = 0;
         }
 
-        public Vecor3D(double x, double y, double z)
+        public Vector3D(double x, double y, double z)
         {
             X = x;
             Y = y;
@@ -28,16 +28,23 @@ namespace Doom5
 
 
 
-        public static Vecor3D operator +(Vecor3D a, Vecor3D b)
+        public static Vector3D operator +(Vector3D a, Vector3D b)
         {
 
-            return new Vecor3D((a.X + b.X), (a.Y + b.Y), (a.Z + b.Z));
+            return new Vector3D((a.X + b.X), (a.Y + b.Y), (a.Z + b.Z));
         }
 
-        public static Vecor3D operator -(Vecor3D a, Vecor3D b)
+        public static Vector3D operator -(Vector3D a, Vector3D b)
         {
 
-            return new Vecor3D((a.X - b.X), (a.Y - b.Y), (a.Z - b.Z));
+            return new Vector3D((a.X - b.X), (a.Y - b.Y), (a.Z - b.Z));
+        }
+
+        public static Vector3D Cross(Vector3D a, Vector3D b)
+        {
+            return new Vector3D(((a.Y * b.Z) - (a.Z * b.Y)),
+                                ((a.Z * b.X) - (a.X * b.Z)),
+                                ((a.X * b.Y) - (a.Y * b.X)));
         }
 
         public override string ToString()

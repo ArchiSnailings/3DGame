@@ -10,10 +10,10 @@ namespace Doom5
     {
         public static void Main()
         {
-            Vecor3D a = new Vecor3D(1, 4, 5);
-            Vecor3D b = new Vecor3D(3, 2, 3);
+            Vector3D a = new Vector3D(1, 4, 5);
+            Vector3D b = new Vector3D(3, 2, 3);
 
-            Vecor3D c = a+b;
+            Vector3D c = a+b;
 
             Console.WriteLine(c);
             Console.ReadKey();
