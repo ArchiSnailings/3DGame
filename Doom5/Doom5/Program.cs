@@ -11,7 +11,7 @@ namespace Doom5
     {
         public static void Main()
         {
-            MainWindow mainWin = new MainWindow();
+            lol mainWin = new lol();
 
             Application.Run(mainWin);
             
