@@ -7,11 +7,11 @@ using System.Windows.Forms;
 using System.Drawing;
 namespace Doom5
 {
-    class lol : Form
+    class MainWindow : Form
     {
         Bitmap bmp = new Bitmap(640, 480);
 
-        public lol()
+        public MainWindow()
         {
             this.BackgroundImage = bmp;
             this.BackgroundImageLayout = ImageLayout.Zoom;
