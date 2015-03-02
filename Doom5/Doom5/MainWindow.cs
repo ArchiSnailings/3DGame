@@ -13,7 +13,6 @@ namespace Doom5
 
         public MainWindow()
         {
-
             this.BackgroundImage = bmp;
             this.BackgroundImageLayout = ImageLayout.Zoom;
         }
